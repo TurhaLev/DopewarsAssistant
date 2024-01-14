@@ -29,3 +29,8 @@ class Player:
         self.guns = {}
         for gun in GUNS:
             self.guns.update({gun: 0})
+
+
+if __name__ == "__main__":
+    player = Player()
+    dw_game()
